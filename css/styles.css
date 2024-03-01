@@ -62,7 +62,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #faeee7;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+  --bs-link-color: #ff8ba7;
+  --bs-link-hover-color: #33272a;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -3772,7 +3772,7 @@ textarea.form-control-lg {
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
-  color: var(--bs-navbar-brand-color);
+  color: #33272a;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -10828,7 +10828,7 @@ textarea.form-control-lg {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #594a4e;
 }
 
 @media (min-width: 992px) {
@@ -10937,7 +10937,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color:#ff8ba7;
 }
 
 .dev-icons {
@@ -10978,3 +10978,27 @@ section.resume-section .resume-section-content {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.bg-primary {
+  background-color: #ff8ba7 !important;
+}
+
+.text-primary {
+  color: #ff8ba7 !important;
+}
+
+
+
+
+
+
+
+
+/* Note to self: Changing color pallete for resume page,this is a list of colors i have changed:
+--bs-body-bg: #faeee7;
+ --bs-link-color: #ff8ba7;
+  --bs-link-hover-color: #33272a;
+  .navbar-brand {
+  color: #33272a;
+  text-decoration: none;
+  white-space: nowrap;
+}/*
